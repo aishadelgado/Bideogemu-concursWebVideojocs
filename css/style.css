@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "ReggaeOne";
+    src: url(../Reggae_One/ReggaeOne-Regular.ttf);
+}
+
+body {
+    font-family: "ReggaeOne";
+}
+
+#cabecera {
+    background-color: rgb(173, 100, 191);
+    height: 50%;
+    margin-right: auto;
+}
+
+#cabecera p {
+    color: (191, 187, 191);
+}
+
+.logos {
+    height: 80%;
+    width: 40%;
+}
+
+.btn-btn-outline-success {
+    color: black;
+    margin-top: auto;
+} 
+
+.logo_bideogemu {
+    height: 80%;
+    width: 40%;
+    
+}
+
+.playstation_logo {
+    height: 80%;
+    width: 40%;
+}
+
+#bideogemu {
+    font-family: "ReggaeOne";
+    margin-top: auto;
+}
+
+#formulario {
+    margin-top: auto;
+    margin-bottom: auto;
+}
