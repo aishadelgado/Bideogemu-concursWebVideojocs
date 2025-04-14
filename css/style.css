@@ -5,6 +5,7 @@
 
 body {
     font-family: "ReggaeOne";
+    background-color: rgb(160, 157, 160);
 }
 
 #cabecera {
@@ -15,17 +16,24 @@ body {
 
 #cabecera p {
     color: (191, 187, 191);
+    size: 50px;
 }
 
 .logos {
     height: 80%;
     width: 40%;
+    margin-right: auto;
 }
 
 .btn-btn-outline-success {
     color: black;
     margin-top: auto;
+    margin-right: auto;
 } 
+
+.carousel-slide {
+    margin-top: 50px;
+}
 
 .logo_bideogemu {
     height: 80%;
@@ -38,12 +46,47 @@ body {
     width: 40%;
 }
 
+.logos_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+.logo_bideogemu_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+    
+}
+
+.playstation_logo_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
 #bideogemu {
     font-family: "ReggaeOne";
     margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
 }
 
 #formulario {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.portadas {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+#footer {
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    margin-right: auto;
+    
 }
