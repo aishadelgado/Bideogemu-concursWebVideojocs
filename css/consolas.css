@@ -1,0 +1,105 @@
+/* Playstation */
+@font-face {
+    font-family: "ReggaeOne";
+    src: url(../Reggae_One/ReggaeOne-Regular.ttf);
+}
+
+body {
+    font-family: "ReggaeOne";
+    background-color: rgb(160, 157, 160);
+}
+
+#cabecera_playstation {
+    background-color: rgb(69, 69, 228);
+    height: 50%;
+    margin-right: auto;
+}
+
+#cabecera p {
+    color: rgb(191, 187, 191);
+    size: 50px;
+    font-family: "ReggaeOne";
+}
+
+#bideogemu {
+    font-family: "ReggaeOne";
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+.logo_bideogemu {
+    height: 80%;
+    width: 40%;
+}
+
+.carousel-slide {
+    margin-top: 50px;
+}
+
+#container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: center;
+}
+
+.logos_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+.logo_bideogemu_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+.logos {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+#footer {
+    background-color: black;
+    color: aliceblue;
+    height: 90px;
+    margin-right: auto;
+}
+
+#footer p {
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#footer img {
+    height: 80px;
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* PLAYSTATION
+1-The last of us parte 2
+2-Ghost of Tsushima legends
+3-ARK
+4-God of  War
+5-Shadow of the tomb raider
+
+XBOX
+1-Kingdom Come Delivernance 2
+2-Prince of Persia The lost Crown
+3-Warhammer 40.000 Space Marine 2
+4-Assassin's creed Mirage
+5-Assassins creed Shadow
+
+NINTENDO
+1-Super Mario World
+2-Super Mario All-Stars	
+3-Donkey Kong Country
+4-Super Mario Kart
+5-Street Fighter II */
