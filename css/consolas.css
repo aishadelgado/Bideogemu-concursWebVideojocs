@@ -15,6 +15,18 @@ body {
     margin-right: auto;
 }
 
+#cabecera_nintendo {
+    background-color: rgb(220, 16, 16);
+    height: 50%;
+    margin-right: auto;
+}
+
+#cabecera_xbox {
+    background-color: rgb(50, 183, 17);
+    height: 50%;
+    margin-right: auto;
+}
+
 #cabecera p {
     color: rgb(191, 187, 191);
     size: 50px;
@@ -81,6 +93,10 @@ body {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.titulos {
+    text-align: center;
 }
 
 /* PLAYSTATION
