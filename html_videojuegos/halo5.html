@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo 5</title>
+    <link rel="stylesheet" href="../css/videojuegos.css">
+    <link rel="icon" href="../img/icon1x1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row" id="cabecera">
+        <!-- Logo de Bideogemu -->
+        <div class="col-lg-1">
+            <a href="../index.html">
+                <img src="../img/icon1x1.png" class="logo_bideogemu">
+            </a>
+        </div>
+
+        <div class="col-lg-1" id="bideogemu">
+            <p>Bideogemu</p>
+        </div>
+        <!-- Espacio en blanco -->
+        <div class="col-lg-1">
+        </div>
+
+        <!-- Logo XBOX -->
+        <div class="col-lg-1">
+            <a href="../consolas/xbox.html">
+                <img src="../img/xbox_logo.png" class="logos">
+            </a>
+        </div>
+
+        <!-- Logo Nintendo -->
+        <div class="col-lg-1">
+            <a href="../consolas/nintendo.html">
+                <img src="../img/nintendo_logo.png" class="logos">
+            </a>
+        </div>
+
+        <!-- Logo Playstation -->
+        <div class="col-lg-1">
+            <a href="../consolas/playstation.html">
+                <img src="../img/playstation_logo.png" class="playstation_logo">
+            </a>
+        </div>
+
+        <!-- Espacio en blanco -->
+        <div class="col-lg-2">
+        </div>
+
+        <!-- Barra de busqueda -->
+        <div class="col-lg-4" id="formulario">
+            <form class="d-flex" role="search">
+                <input type="text" id="Nombre" name="Nombre">
+                <button class="btn-btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+    <div class="titulos">
+        <h1>HALO 5</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-2">
+        </div>
+        <!-- Carousel con las imagenes del juego -->
+        <div class="col-lg-8">
+            <div id="carouselExampleAutoplaying" class="carousel-slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/halo5/halo5_carrousel.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/halo5/halo5_carrousel_2.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/halo5/halo5_carrousel_3.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/halo5/halo5_carrousel_4.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/halo5/halo5_carrousel_5.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Precio HALO 5 -->
+        <div class="row">
+            <div class="col-lg-5"></div>
+
+            <div class="col-lg-2">
+                <h3><strong>Precio: 39,99€</strong></h3>
+            </div>
+
+            <div class="col-lg-5"></div>
+        </div>
+
+        <!-- Pestañas con informacion del juego -->
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Resumen</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Personajes</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Video</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        Junto con su Equipo de Asalto Osiris, que incluye a los Spartans Vale, Tanaka y Buck, Locke se
+                        dispone a cazar a la presa más peligrosa
+                        de todas: el Jefe Maestro. Mientras numerosas colonias sufren ataques simultáneos en "Halo 5:
+                        Guardianes", el Jefe Maestro desaparece y
+                        nadie sabe si está en apuros o si se ha vuelto rebelde</div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <!-- Tabla para personajes -->
+                        <table>
+                            <thead id="head" rowspan="2"><h1>Personajes principales de HALO 5</h1></thead>
+                            <br>
+
+                            <!-- Jefe maestro -->
+                            <tr>
+                                <th>Jefe Maestro</th>
+                            </tr>
+
+                            <tr>
+                                <td>El Jefe Maestro tiene carácter de héroe frío y aterrador. Cuando aparece en batalla,
+                                    sus enemigos advierten que
+                                    será casi imposible ganar. Él nunca habla a menos que sea necesario y es raro que se
+                                    exprese. Usualmente Cortana
+                                    se expresa por él</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/halo5/masterchief_icon.jpg" class="imagenes_halo"></td>
+                            </tr>
+
+                            <!-- Cortana -->
+
+                            <tr>
+                                <th>Cortana</th>
+                            </tr>
+
+                            <tr>
+                                <td>Cortana posee una personalidad inteligente y vivaz, además de un buen sentido del
+                                    humor. Su lealtad hacia los
+                                    humanos está programada, pero ella dice que su lealtad es genuina, tal vez por el
+                                    hecho de tratarse de un clon de
+                                    un cerebro verdaderamente humano</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/halo5/cortana_icon.jpg" class="imagenes_halo"></td>
+                            </tr>
+
+                            <!-- Comandante Thomas J. Lasky -->
+                            <tr>
+                                <th>Comandante Thomas J. Lasky</th>
+                            </tr>
+
+                            <tr>
+                                <td>El Capitán Thomas J. Lasky es un oficial del UNSC que sirvió en la Guerra
+                                    Humano-Covenant y en los
+                                    Conflictos de la Post-Guerra. Desde 2552, el entonces Comandante Lasky sirvió como
+                                    Oficial Ejecutivo del Capitán Andrew Del Rio a bordo de la UNSC Infinity hasta Julio
+                                    de 2557, cuando Del Rio fue relevado del mando justo antes del asalto Prometeo a la
+                                    Tierra. Actualmente es el Capitán de la UNSC Infinity y máxima autoridad en dicha
+                                    nave.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/halo5/comandante_icon.jpg" class="imagenes_halo"></td>
+                            </tr>
+
+                            <!-- Doctora Catherine Halsey -->
+                            <tr>
+                                <th>Doctora Catherine Halsey</th>
+                            </tr>
+
+                            <tr>
+                                <td>Catherine Elizabeth Halsey, MD, PhD es una científica
+                                    clave de la Oficina de Inteligencia Naval, mejor conocida por su trabajo en el
+                                    Programa SPARTAN-II, su diseño y creación de Inteligencias Artificiales y por el
+                                    diseño de la Armadura Potenciada de Asalto MJOLNIR. Sirvió como científica de la ONI
+                                    desde 2515 hasta 2552, cuando se le ascendió al puesto de Científica en Jefe, que
+                                    ocuparía hasta el final de la Guerra Humano-Covenant.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/halo5/catherine_icon.jpg" class="imagenes_halo"></td>
+                            </tr>
+                            
+                            <!-- Roland -->
+                            <tr>
+                                <th>Roland</th>
+                            </tr>
+
+                            <tr>
+                                <td>Roland es una Inteligencia Artificial construida por el UNSC. Es el Director de Nave de la UNSC Infinity.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/halo5/roland_icon.jpg" class="imagenes_halo"></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <a href="https://www.youtube.com/watch?v=GhTMIyhxJJc">
+                            <img src="../img/halo5/halo5_trailer.jpg" class="trailer">
+                        </a>
+                        
+
+                    </div>
+                    
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+
+            <div class="row" id="footer">
+            
+                <div class="col-lg-1">
+                    <img src="../img/icon1x1.png" class="logo_bideogemu_2">
+                </div>
+    
+                <div class="col-lg-1" id="bideogemu">
+                    <p>Bideogemu</p>
+                </div>
+    
+                <div class="col-lg-8"></div>
+    
+                <div class="col-lg-2">
+                    <p>Derechos de autor e imagen reservados para Bideogemu 2025-2026</p>
+                </div>
+            </div>
+        </div>
+</body>

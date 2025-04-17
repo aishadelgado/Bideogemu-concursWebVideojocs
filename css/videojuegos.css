@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "ReggaeOne";
+    src: url(../Reggae_One/ReggaeOne-Regular.ttf);
+}
+
+.logos {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+.btn-btn-outline-success {
+    color: black;
+    margin-top: auto;
+    margin-right: auto;
+} 
+
+.carousel-slide {
+    margin-top: 50px;
+}
+
+#container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: center;
+}
+
+.logo_bideogemu {
+    height: 80%;
+    width: 40%;
+}
+
+.playstation_logo {
+    height: 80%;
+    width: 40%;
+}
+
+.logos_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+.logo_bideogemu_2 {
+    height: 80%;
+    width: 40%;
+    margin-right: auto;
+}
+
+#bideogemu {
+    font-family: "ReggaeOne";
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#cabecera {
+    background-color: rgb(173, 100, 191);
+    height: 50%;
+    margin-right: auto;
+}
+
+.titulos {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.imagenes_halo {
+    width: 250px;
+    height: 250px;
+}
+
+.trailer {
+    width: auto;
+    height: 500px;
+    margin-right: 100px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#footer {
+    background-color: black;
+    color: aliceblue;
+    height: 90px;
+    margin-right: auto;
+}
+
+#footer p {
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#footer img {
+    height: 80px;
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
