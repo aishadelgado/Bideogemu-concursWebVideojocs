@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Kart</title>
+    <link rel="stylesheet" href="../css/videojuegos.css">
+    <link rel="icon" href="../img/icon1x1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row" id="cabecera">
+        <!-- Logo de Bideogemu -->
+        <div class="col-lg-1">
+            <a href="../index.html">
+                <img src="../img/icon1x1.png" class="logo_bideogemu">
+            </a>
+        </div>
+
+        <div class="col-lg-1" id="bideogemu">
+            <p>Bideogemu</p>
+        </div>
+        <!-- Espacio en blanco -->
+        <div class="col-lg-1">
+        </div>
+
+        <!-- Logo XBOX -->
+        <div class="col-lg-1">
+            <a href="../consolas/xbox.html">
+                <img src="../img/xbox_logo.png" class="logos">
+            </a>
+        </div>
+
+        <!-- Logo Nintendo -->
+        <div class="col-lg-1">
+            <a href="../consolas/nintendo.html">
+                <img src="../img/nintendo_logo.png" class="logos">
+            </a>
+        </div>
+
+        <!-- Logo Playstation -->
+        <div class="col-lg-1">
+            <a href="../consolas/playstation.html">
+                <img src="../img/playstation_logo.png" class="playstation_logo">
+            </a>
+        </div>
+
+        <!-- Espacio en blanco -->
+        <div class="col-lg-2">
+        </div>
+
+        <!-- Barra de busqueda -->
+        <div class="col-lg-4" id="formulario">
+            <form class="d-flex" role="search">
+                <input type="text" id="Nombre" name="Nombre">
+                <button class="btn-btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+    <div class="titulos">
+        <h1>Mario Kart</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-2">
+        </div>
+        <!-- Carousel con las imagenes del juego -->
+        <div class="col-lg-8">
+            <div id="carouselExampleAutoplaying" class="carousel-slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/Mario Kart/mariokart_carrusel.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/Mario Kart/mariokart_carrusel_2.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/Mario Kart/mariokart_carrusel_3.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/Mario Kart/mariokart_carrusel_4.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/Mario Kart/mariokart_carrusel_5.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Precio Mario Kart -->
+        <div class="row">
+            <div class="col-lg-5"></div>
+
+            <div class="col-lg-2">
+                <h3><strong>Precio: 89,99€</strong></h3>
+            </div>
+
+            <div class="col-lg-5"></div>
+        </div>
+
+        <!-- Pestañas con informacion del juego -->
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Resumen</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Personajes</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Video</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        Mario Kart es una serie de videojuegos de carreras desarrollados y distribuidos por Nintendo
+                        como spin-offs de su marca registrada Super Mario y cuentan con la aparición de los personajes
+                        de la franquicia de Mario. El primer juego de la serie, Super Mario Kart, fue lanzado en 1992
+                        para la consola Super Nintendo y fue un éxito comercial y crítico.</div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <!-- Tabla para personajes -->
+                        <table>
+                            <thead id="head" rowspan="2">
+                                <h1>Personajes principales de Mario Kart</h1>
+                            </thead>
+                            <br>
+
+                            <!-- Mario -->
+                            <tr>
+                                <th>Mario</th>
+                            </tr>
+
+                            <tr>
+                                <td>Mario es el protagonista de la serie de videojuegos Super Mario. Es un fontanero
+                                    estadounidense de origen italiano que
+                                    actualmente vive en el Reino Champiñón. Como el héroe que es, se encarga de salvar a
+                                    la gente, especialmente a la Princesa Peach, a quien ha salvado muchísimas veces de
+                                    las garras del temible Bowser, quien es su archi-enemigo. Es una persona humilde y
+                                    de buen corazón, que no le importa cuanto tenga que recorrer para salvar a la gente
+                                    que necesita su ayuda.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/Mario Kart/mario_icon.jpg" class="imagenes"></td>
+                            </tr>
+
+                            <!-- Luigi -->
+
+                            <tr>
+                                <th>Luigi</th>
+                            </tr>
+
+                            <tr>
+                                <td>Él es usualmente descrito como el hermano gemelo de la mascota oficial de Nintendo,
+                                    Mario. Luigi apareció por primera vez en el juego arcade Mario Bros., donde fue
+                                    presentado como un personaje principal junto a Mario. En ocasiones Luigi también a
+                                    sido el que dirige los créditos como en Super Mario RPG y Paper Mario. Desde su
+                                    debut, Luigi ha aparecido en muchos juegos de Mario en la serie, la mayoría de las
+                                    veces acompaña a Mario como un protagonista central, sino que también ha protagonizó
+                                    como el personaje principal de Mario is Missing! y Luigi's Mansion.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/Mario Kart/luigi_icon.jpg" class="imagenes"></td>
+                            </tr>
+
+                            <!-- Princesa Peach -->
+                            <tr>
+                                <th>Princesa Peach</th>
+                            </tr>
+
+                            <tr>
+                                <td>La Princesa Peach es la princesa del Reino Champiñón. Apareció por primera vez en
+                                    Super Mario Bros. para NES. Peach fue creada por Shigeru Miyamoto y es la damisela
+                                    en apuros en la mayoría de los juegos de Mario. Desde su debut en Super Mario Bros.,
+                                    Peach ha aparecido en casi todos los juegos de la franquicia, volviéndose uno de los
+                                    iconos más conocidos de los videojuegos y el personaje femenino de los videojuegos
+                                    más conocido del mundo.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/Mario Kart/peach_icon.jpg" class="imagenes"></td>
+                            </tr>
+
+                            <!-- Toad -->
+                            <tr>
+                                <th>Toad</th>
+                            </tr>
+
+                            <tr>
+                                <td>Es un pequeño humanoide con una cabeza en forma de champiñón. Son personas pacíficas
+                                    del Reino Champiñón. Al igual que otros personajes de Mario, como Yoshi, tanto la
+                                    especie como el individuo principal se llaman Toad.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/Mario Kart/toad_icon.jpg" class="imagenes"></td>
+                            </tr>
+
+                            <!-- Bowser -->
+                            <tr>
+                                <th>Bowser</th>
+                            </tr>
+
+                            <tr>
+                                <td>Bowser es el villano principal de la franquicia Super Mario y el
+                                    más icónico de los videojuegos.
+                                    Es el rey y el más poderoso de los Koopas. Vive en un enorme y peligroso castillo en
+                                    el Reino Koopa. El objetivo de Bowser en la mayoría de juegos es secuestrar a la
+                                    Princesa Peach, de la que está enamorado, y dominar el Reino Champiñón, aunque sus
+                                    planes siempre son arruinados por Mario.</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../img/Mario Kart/bowser_icon.jpg" class="imagenes"></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <a href="https://www.youtube.com/watch?v=I-wJSk1xZsw">
+                            <img src="../img/Mario Kart/mariokart_trailer.jpg" class="trailer">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+
+            <div class="row" id="footer">
+
+                <div class="col-lg-1">
+                    <img src="../img/icon1x1.png" class="logo_bideogemu_2">
+                </div>
+
+                <div class="col-lg-1" id="bideogemu">
+                    <p>Bideogemu</p>
+                </div>
+
+                <div class="col-lg-8"></div>
+
+                <div class="col-lg-2">
+                    <p>Derechos de autor e imagen reservados para Bideogemu 2025-2026</p>
+                </div>
+            </div>
+        </div>
+</body>
