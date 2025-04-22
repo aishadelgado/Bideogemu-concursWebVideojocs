@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bideogemu web</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/icon1x1.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -13,6 +12,7 @@
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -20,11 +20,11 @@
     <!--Color para el fondo: rgb(191, 187, 191)-->
     <div class="row" id="cabecera">
         <!-- Logo de Bideogemu -->
-        <div class="col-lg-1">
+        <div class="col-lg-1 col-sm-3">
             <img src="./img/icon1x1.png" class="logo_bideogemu">
         </div>
 
-        <div class="col-lg-1" id="bideogemu">
+        <div class="col-lg-1 col-sm-3" id="bideogemu">
             <p>Bideogemu</p>
         </div>
         <!-- Espacio en blanco -->
@@ -32,21 +32,21 @@
         </div>
 
         <!-- Logo XBOX -->
-        <div class="col-lg-1">
+        <div class="col-lg-1 col-sm-3">
             <a href="./consolas/xbox.html">
                 <img src="./img/xbox_logo.png" class="logos">
             </a>
         </div>
 
         <!-- Logo Nintendo -->
-        <div class="col-lg-1">
+        <div class="col-lg-1 col-sm-3">
             <a href="./consolas/nintendo.html">
                 <img src="./img/nintendo_logo.png" class="logos">
             </a>
         </div>
 
         <!-- Logo Playstation -->
-        <div class="col-lg-1">
+        <div class="col-lg-1 col-sm-3">
             <a href="./consolas/playstation.html">
             <img src="./img/playstation_logo.png" class="playstation_logo">
             </a>
@@ -97,7 +97,7 @@
                         </a>
                     </div>
                     <div class="carousel-item">
-                        <a href="./html_videojuegos/demonssouls.html">
+                        <a href="./html_videojuegos/demonsouls.html">
                             <img src="./img/demonssouls_index.jpg" class="d-block w-100">
                         </a>
                     </div>
@@ -115,22 +115,22 @@
         <!-- Logos de las consolas -->
         <div id="container">
             <div class="row">
-                   <div class="col-lg-3"></div>
+                   <div class="col-lg-3 col-sm-2"></div>
                 <!-- Xbox -->
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-sm-3">
                         <a href="./consolas/xbox.html">
                             <img src="./img/xbox_logo.png" class="logos_2">
                         </a>
                     </div>
                  <!-- Nintendo -->    
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-sm-3">
                         <a href="./consolas/nintendo.html">
                             <img src="./img/nintendo_logo.png" class="logos_2">
                         </a>
                     </div>
         
                  <!-- Playstation -->    
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-sm-3">
                         <a href="./consolas/playstation.html">
                             <img src="./img/playstation_logo.png" class="playstation_logo_2">
                         </a>
@@ -141,75 +141,53 @@
         </div>
 
         <!-- Catalogo -->
-        <div class="row">
-
-            <!-- Espacio en blanco -->
-            <div class="col-lg-2">
-            </div>
+        <div class="row" id="catalogo">
 
             <!-- Gears of war -->
-            <div class="col-lg-5">
-                <img src="./img/Gears_of_War_Portada_index.jpg" class="portadas">
-                <h2>Gears of War</h2>
+            <div class="col-lg-4 col-sm-6">
+                <a href="./html_videojuegos/gearsofwar.html">
+                    <img src="./img/Gears_of_War_Portada_index.jpg" class="portadas">
+                    <h2>Gears of War</h2>
+                </a>
             </div>
-
             <!-- Halo 5 -->
-            <div class="col-lg-5">
+            <div class="col-lg-4 col-sm-6">
+                <a href="./html_videojuegos/halo5.html">
                 <img src="./img/halo5_portada_index.jpg" class="portadas">
                 <h2>Halo 5</h2>
+                </a>
             </div>
-
-            <!-- Espacio en blanco -->
-            <div class="col-lg-2">
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <!-- Espacio en blanco -->
-            <div class="col-lg-2">
-            </div>
-
 
             <!-- Mario kart -->
-            <div class="col-lg-5">
-                <img src="./img/mariokart_portada_index.png" class="portadas">
-                <h2>Mario Kart</h2>
+            <div class="col-lg-4 col-sm-6">
+                <a href="./html_videojuegos/mariokart.html">
+                    <img src="./img/mariokart_portada_index.png" class="portadas">
+                    <h2>Mario Kart</h2>
+                </a>
             </div>
 
             <!-- TLOZ -->
-            <div class="col-lg-5">
-                <img src="./img/tloz_portada_index.jpg" class="portadas">
-                <h2>TLOZ</h2>
-            </div>
-
-            <!-- Espacio en blanco -->
-            <div class="col-lg-2">
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <!-- Espacio en blanco -->
-            <div class="col-lg-2">
+            <div class="col-lg-4 col-sm-6">
+                <a href="./html_videojuegos/tloz.html">
+                    <img src="./img/tloz_portada_index.jpg" class="portadas">
+                    <h2>TLOZ</h2>
+                </a>
             </div>
             
             <!-- Until Dawn -->
-            <div class="col-lg-5">
-                <img src="./img/Until_Dawn_portada_index.jpg" class="portadas">
-                <h2>Until Dawn</h2>
+            <div class="col-lg-4 col-sm-6">
+                <a href="./html_videojuegos/untildawn.html">
+                    <img src="./img/Until_Dawn_portada_index.jpg" class="portadas">
+                    <h2>Until Dawn</h2>
+                </a>
             </div>
 
             <!-- Demon souls -->
-            <div class="col-lg-5">
-                <img src="./img/demonsouls_portada_index.png" class="portadas">
-                <h2>Demon souls</h2>
-            </div>
-            
-            <!-- Espacio en blanco -->
-            <div class="col-lg-2">
+            <div class="col-lg-4 col-sm-6">
+                <a href="./html_videojuegos/demonsouls.html">
+                    <img src="./img/demonsouls_portada_index.png" class="portadas">
+                    <h2>Demon souls</h2>
+                </a>
             </div>
 
         </div>

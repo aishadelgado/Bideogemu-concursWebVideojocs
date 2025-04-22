@@ -3,15 +3,17 @@
     src: url(../Reggae_One/ReggaeOne-Regular.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "ReggaeOne";
-    background-color: rgb(160, 157, 160);
+    margin: 0;
 }
 
 #cabecera {
     background-color: rgb(173, 100, 191);
     height: 50%;
-    margin-right: auto;
 }
 
 #cabecera p {
@@ -22,13 +24,11 @@ body {
 .logos {
     height: 80%;
     width: 40%;
-    margin-right: auto;
 }
 
 .btn-btn-outline-success {
     color: black;
     margin-top: auto;
-    margin-right: auto;
 } 
 
 .carousel-slide {
@@ -38,7 +38,6 @@ body {
 #container {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: center;
 }
 
 .logo_bideogemu {
@@ -54,19 +53,16 @@ body {
 .logos_2 {
     height: 80%;
     width: 40%;
-    margin-right: auto;
 }
 
 .logo_bideogemu_2 {
     height: 80%;
     width: 40%;
-    margin-right: auto;
 }
 
 .playstation_logo_2 {
     height: 80%;
     width: 40%;
-    margin-right: auto;
 }
 
 #bideogemu {
@@ -84,14 +80,12 @@ body {
 .portadas {
     height: 80%;
     width: 40%;
-    margin-right: auto;
 }
 
 #footer {
     background-color: black;
     color: aliceblue;
     height: 90px;
-    margin-right: auto;
 }
 
 #footer p {
@@ -103,12 +97,15 @@ body {
 #footer img {
     height: 80px;
     width: 80px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .titulo_catalogo {
     text-align: center;
+}
+
+#catalogo {
+    padding-left: 15%;
+    padding-right: 15%;
 }
