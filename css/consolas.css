@@ -58,7 +58,7 @@ body {
 .logos_2 {
     height: 80%;
     width: 40%;
-    margin-right: auto;
+    margin-left: 15%;
 }
 
 .logo_bideogemu_2 {
@@ -76,12 +76,12 @@ body {
 #footer {
     background-color: black;
     color: aliceblue;
-    height: 90px;
-    margin-right: auto;
+    height: 120px;
+    justify-content: space-between;
 }
 
 #footer p {
-    font-size: 18px;
+    font-size: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -89,8 +89,6 @@ body {
 #footer img {
     height: 80px;
     width: 80px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
 }

@@ -36,9 +36,8 @@ body {
 }
 
 #container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 20%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .logo_bideogemu {

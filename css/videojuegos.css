@@ -74,23 +74,19 @@ h3 {
 }
 
 .trailer {
-    width: auto;
-    height: 500px;
-    margin-right: 100px;
-    margin-left: auto;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 #footer {
     background-color: black;
     color: aliceblue;
-    height: 90px;
-    margin-right: auto;
+    height: 120px;
+    justify-content: space-between;
 }
 
 #footer p {
-    font-size: 18px;
+    font-size: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -98,8 +94,6 @@ h3 {
 #footer img {
     height: 80px;
     width: 80px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
